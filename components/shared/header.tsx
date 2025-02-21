@@ -18,7 +18,7 @@ export const Header: React.FC<Props> = ({ className }) => {
             <Container className='flex items-center justify-between py-8'>
                 <div className='flex item-center gap-4'>
                     <Image
-                        src='/icons8-пицца-96 1.png'
+                        src='/logo-pizza.svg'
                         alt='Логотип NEXT PIZZA'
                         width={66} // Укажите ширину изображения
                         height={96} // Укажите высоту изображения
@@ -36,7 +36,7 @@ export const Header: React.FC<Props> = ({ className }) => {
                         <Button variant='outline' className='flex items-center gap-2'>
                         <User size={16}/> Войти </Button>
                         <Button variant='outline' className='flex items-center gap-2'> 520 Р 
-                        {/* <span className='h-full w-[1px] bg-white/30 mx-3' /> */}
+                        <span className='h-full w-[1px] bg-white/30 mx-3' />
                         <ShoppingCart /> 3 </Button>
                     </div>
                 </div>
