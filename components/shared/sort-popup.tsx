@@ -15,7 +15,6 @@ export const SortPopup: React.FC<Props> = ({ className }) => {
             Сортировка: 
             <p className='text-primary'> рейтингу</p>
         </div>
-
-
+        
     );
 }
