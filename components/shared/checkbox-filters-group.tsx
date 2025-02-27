@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React from "react";
 import { FilterCheckbox, FilterCheckboxProps } from "./filter-checkbox";
@@ -48,7 +48,6 @@ const list = showAll
                         onChange={onChangeSearchInput}
                         placeholder={searchInputPlaceholder}
                         className="bg-gray-50 border-none"
-                    
                     />
                 </div>
             )}
