@@ -23,7 +23,7 @@ export default function Home() {
               <ProductCard id={0}
               name="Чизбургер-пицца"
               price={550}
-              imageUrl="https://www.google.com/imgres?q=%D0%B4%D0%BE%D0%B4%D0%BE%20%D0%BF%D0%B8%D1%86%D1%86%D0%B0&imgurl=https%3A%2F%2Fcdn.dodostatic.net%2Fstatic%2FImg%2FProducts%2Fcea570842b754c52b786c231c65bd2e2_1875x1875.jpeg&imgrefurl=https%3A%2F%2Fdodopizza.ru%2Fmoscow&docid=MXNwXJjd60kzuM&tbnid=gMKdIbZF3Xp33M&vet=12ahUKEwjFlJSf8_SLAxVRIBAIHafIBxAQM3oFCIQBEAA..i&w=1875&h=1875&hcb=2&ved=2ahUKEwjFlJSf8_SLAxVRIBAIHafIBxAQM3oFCIQBEAA">
+              imageUrl="https://www.google.com/imgres?q=%D0%B4%D0%BE%D0%B4%D0%BE%20%D0%BF%D0%B8%D1%86%D1%86%D0%B0&imgurl=https%3A%2F%2Fcdn.dodostatic.net%2Fstatic%2FImg%2FProducts%2Fcea570842b754c52b786c231c65bd2e2_1875x1875.jpeg&imgrefurl=https%3A%2F%2Fdodopizza.ru%2Fmoscow&docid=MXNwXJjd60kzuM&tbnid=gMKdIbZF3Xp33M&vet=12ahUKEwjFlJSf8_SLAxVRIBAIHafIBxAQM3oFCIQBEAA..i&w=1875&h=1875&hcb=2&ved=2ahUKEwjFlJSf8_SLAxVRIBAIHafIBxAQM3oFCIQBEAA"/>
             </div>
 
           </div>
