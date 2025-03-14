@@ -1,35 +1,88 @@
-import Image from "next/image";
-import { CheckboxFiltersGroup, Container, Filters, Title, TopBar} from "@/components/shared/";
+
+import { Container, Filters, Title, TopBar } from "@/components/shared/";
 import { ProductCard } from "@/components/shared/product-card";
+import { ProductsGroupList } from "@/components/shared/products-group-list";
 
 
 
 export default function Home() {
   return (
-    <div>
+    <>
+
       <Container className="mt-10">
         <Title size="lg" text="Все пиццы" className="font-black"></Title>
 
       </Container>
-      <TopBar/>
+      <TopBar />
       <Container>
         <div>
           <div className="w-[250px]">
             <Filters />
           </div>
 
+
           <div className="flex-1">
             <div className="flex flex-col gap-16">
-              <ProductCard id={0}
-              name="Чизбургер-пицца"
-              price={550}
-              imageUrl="https://www.google.com/imgres?q=%D0%B4%D0%BE%D0%B4%D0%BE%20%D0%BF%D0%B8%D1%86%D1%86%D0%B0&imgurl=https%3A%2F%2Fcdn.dodostatic.net%2Fstatic%2FImg%2FProducts%2Fcea570842b754c52b786c231c65bd2e2_1875x1875.jpeg&imgrefurl=https%3A%2F%2Fdodopizza.ru%2Fmoscow&docid=MXNwXJjd60kzuM&tbnid=gMKdIbZF3Xp33M&vet=12ahUKEwjFlJSf8_SLAxVRIBAIHafIBxAQM3oFCIQBEAA..i&w=1875&h=1875&hcb=2&ved=2ahUKEwjFlJSf8_SLAxVRIBAIHafIBxAQM3oFCIQBEAA"/>
+              <ProductsGroupList title="Пиццы" items={[{
+                id: 1,
+                name: 'Чизбургер-пицца',
+                imageUrl: 'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
+                price: 550,
+                items: [{ price: 500 }]
+              },
+              {
+                id: 1,
+                name: 'Чизбургер-пицца',
+                imageUrl: 'https://i.pinimg.com/564x/83/de/c1/83dec11fa50073062a19b7a923270be.jpg',
+                price: 550,
+                items: [{ price: 500 }]
+              }, {
+                id: 1,
+                name: 'Чизбургер-пицца',
+                imageUrl: 'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
+                price: 550,
+                items: [{ price: 500 }]
+              }, {
+                id: 1,
+                name: 'Чизбургер-пицца',
+                imageUrl: '',
+                price: 550,
+                items: [{ price: 500 }]
+              }
+              ]} categoryId={1} />
+              <ProductsGroupList title="Пиццы" items={[{
+                id: 1,
+                name: 'Чизбургер-пицца',
+                imageUrl: 'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
+                price: 550,
+                items: [{ price: 500 }]
+              },
+              {
+                id: 1,
+                name: 'Чизбургер-пицца',
+                imageUrl: 'https://i.pinimg.com/564x/83/de/c1/83dec11fa50073062a19b7a923270be.jpg',
+                price: 550,
+                items: [{ price: 500 }]
+              }, {
+                id: 1,
+                name: 'Чизбургер-пицца',
+                imageUrl: 'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
+                price: 550,
+                items: [{ price: 500 }]
+              }, {
+                id: 1,
+                name: 'Чизбургер-пицца',
+                imageUrl: '',
+                price: 550,
+                items: [{ price: 500 }]
+              }
+              ]} categoryId={2} />
             </div>
-
           </div>
         </div>
-      </Container>
+  
+    </Container>
 
-    </div>
+    </>
   );
 }

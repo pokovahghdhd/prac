@@ -14,6 +14,7 @@ export const ProductsGroupList: React.FC<Props> = ({
     title,
     items,
     categoryId,
+    className,
     listClassName
 }) => {
     return (
@@ -26,20 +27,10 @@ export const ProductsGroupList: React.FC<Props> = ({
                         id={product.id}
                         name={product.name}
                         imageUrl={product.imageUrl}
-                        price={product.item[0].price}
+                        price={product.items[0].price}
                     />
                 ))}
             </div>
         </div>
     );
 }
-<div className="flex-1">
-    <div className="flex flex-col gap-16">
-        <ProductsGroupList title="Пиццы" items={[{
-            id: 1,
-            name: 'Чизбургер-пицца',
-            imageUrl:'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
-            
-        }]}/>
-    </div>
-</div>
