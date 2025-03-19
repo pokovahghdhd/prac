@@ -88,5 +88,5 @@ export const Filters: React.FC<Props> = ({ className }) => {
 
             />
         </div>
-);
+    );
 }

@@ -13,7 +13,7 @@ export default function Home() {
         <Title size="lg" text="Все пиццы" className="font-black"></Title>
 
       </Container>
-      <TopBar />
+      <TopBar/>
       <Container>
         <div>
           <div className="w-[250px]">
@@ -26,63 +26,42 @@ export default function Home() {
               <ProductsGroupList title="Пиццы" items={[{
                 id: 1,
                 name: 'Чизбургер-пицца',
-                imageUrl: 'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
+                imageUrl: "https://lavera-pizza.ru/wp-content/uploads/2024/04/royal-chizburger-vid-sverhu-kontrast.jpg",
                 price: 550,
                 items: [{ price: 500 }]
               },
               {
-                id: 1,
+                id: 2,
                 name: 'Чизбургер-пицца',
-                imageUrl: 'https://i.pinimg.com/564x/83/de/c1/83dec11fa50073062a19b7a923270be.jpg',
+                imageUrl: "https://lavera-pizza.ru/wp-content/uploads/2024/04/royal-chizburger-vid-sverhu-kontrast.jpg",
                 price: 550,
                 items: [{ price: 500 }]
               }, {
-                id: 1,
+                id: 3,
                 name: 'Чизбургер-пицца',
-                imageUrl: 'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
+                imageUrl: "https://lavera-pizza.ru/wp-content/uploads/2024/04/royal-chizburger-vid-sverhu-kontrast.jpg",
                 price: 550,
                 items: [{ price: 500 }]
               }, {
-                id: 1,
+                id: 4,
                 name: 'Чизбургер-пицца',
-                imageUrl: '',
+                imageUrl: "https://lavera-pizza.ru/wp-content/uploads/2024/04/royal-chizburger-vid-sverhu-kontrast.jpg",
+                price: 550,
+                items: [{ price: 500 }]
+              }, {
+                id: 5,
+                name: 'Чизбургер-пицца',
+                imageUrl: "https://lavera-pizza.ru/wp-content/uploads/2024/04/royal-chizburger-vid-sverhu-kontrast.jpg",
                 price: 550,
                 items: [{ price: 500 }]
               }
               ]} categoryId={1} />
-              <ProductsGroupList title="Пиццы" items={[{
-                id: 1,
-                name: 'Чизбургер-пицца',
-                imageUrl: 'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
-                price: 550,
-                items: [{ price: 500 }]
-              },
-              {
-                id: 1,
-                name: 'Чизбургер-пицца',
-                imageUrl: 'https://i.pinimg.com/564x/83/de/c1/83dec11fa50073062a19b7a923270be.jpg',
-                price: 550,
-                items: [{ price: 500 }]
-              }, {
-                id: 1,
-                name: 'Чизбургер-пицца',
-                imageUrl: 'https://storage.yandexcloud.net/pjproduction/images/catalog/thumds/full/1e76d079f2aba43961e3b2a01d5c5dcd.webp',
-                price: 550,
-                items: [{ price: 500 }]
-              }, {
-                id: 1,
-                name: 'Чизбургер-пицца',
-                imageUrl: '',
-                price: 550,
-                items: [{ price: 500 }]
-              }
-              ]} categoryId={2} />
             </div>
-          </div>
-        </div>
-  
-    </Container>
-
-    </>
-  );
-}
+              </div>
+            </div>
+          </Container>
+          
+        </>
+      );
+    }
+    
